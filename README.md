@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-news-homepage-NpSKX-blIp)
 - Live Site URL: [Add live site URL here](https://deluxe-monstera-50f6d9.netlify.app/)
 
 ## My process

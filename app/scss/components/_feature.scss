@@ -34,7 +34,7 @@
     justify-self: start;
     display: inline-block;
     background-color: var(--c-red);
-    color: var(--c-white);
+    color: var(--c-blue);
     font-size: u.rem(14);
     letter-spacing: 0.31em;
     font-weight: 700;
@@ -43,6 +43,7 @@
 
     &:hover {
       background-color: var(--c-blue);
+      color: var(--c-white);
     }
   }
 }
