@@ -30,7 +30,7 @@
         <button
           id="btnOpen"
           class="nav__open"
-          aria-labelledby="nav-label"
+          aria-label="Open Navigation"
           aria-expanded="false"
         >
           <span id="nav-label" hidden>Navigation</span>
@@ -43,21 +43,19 @@
             aria-hidden="true"
           >
             <rect id="Rectangle" y="7" width="40" height="3" fill="#00001A" />
-            <rect
-              id="Rectangle_2"
-              y="14"
-              width="40"
-              height="3"
-              fill="#00001A"
-            />
-            <rect id="Rectangle_3" width="40" height="3" fill="#00001A" />
+            <rect id="Rectangle2" y="14" width="40" height="3" fill="#00001A" />
+            <rect id="Rectangle3" width="40" height="3" fill="#00001A" />
           </svg>
         </button>
 
         <div class="nav__overlay" aria-hidden="true"></div>
 
         <div class="nav__content" role="dialog" aria-labelledby="nav-label">
-          <button id="btnClose" class="nav__close" aria-label="Close">
+          <button
+            id="btnClose"
+            class="nav__close"
+            aria-label="Close Navigation Menu"
+          >
             <svg
               width="32"
               height="31"
@@ -76,7 +74,7 @@
                 fill="#00001A"
               />
               <rect
-                id="Rectangle_2"
+                id="Rectangle2"
                 x="0.797363"
                 y="28.5815"
                 width="40"
@@ -113,8 +111,6 @@
             <source
               media="(min-width: 43.75em)"
               srcset="/img/image-web-3-desktop.jpg"
-              width="1460"
-              height="600"
             />
             <img
               class="feature__image"
@@ -125,7 +121,7 @@
             />
           </picture>
 
-          <h1 class="feature__headline">The Bright Future of Web 3.0?</h1>
+          <h1>The Bright Future of Web 3.0?</h1>
           <div class="feature__description">
             <p>
               We dive into the next evolution of the web that claims to put the
@@ -165,6 +161,7 @@
           </article>
         </section>
         <section class="blog">
+          <h2 class="visually-hidden">Blog Articles</h2>
           <article class="blog__item">
             <img
               src="/img/image-retro-pcs.jpg"
