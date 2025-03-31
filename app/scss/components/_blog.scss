@@ -31,15 +31,13 @@
   &__headline {
     align-self: center;
 
-    a {
-      color: var(--c-blue);
-      font-size: var(--f-xs);
-      font-weight: 800;
-      line-height: 1.1;
+    color: var(--c-blue);
+    font-size: var(--f-xs);
+    font-weight: 800;
+    line-height: 1.1;
 
-      &:hover {
-        color: var(--c-red);
-      }
+    &:hover {
+      color: var(--c-red);
     }
   }
 
